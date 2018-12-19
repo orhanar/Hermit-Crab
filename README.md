@@ -1,5 +1,4 @@
-# Reverse-Shell
-Multi-Client Multi-Threaded Reverse Shell in Python
+
 
 Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.
 
@@ -12,9 +11,10 @@ How to use
 
 
 
-# Project Title
+# Hermit Crab
 
-One Paragraph of project description goes here
+Multi-Client Multi-Threaded Reverse Shell in Python
+
 
 ## Getting Started
 
@@ -22,17 +22,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
 
 ```
-Give examples
+You will need IDE for Python such as [Pycharm](https://www.jetbrains.com/pycharm/)
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+1) Install 
 
 ```
 Give the example
