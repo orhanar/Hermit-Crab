@@ -74,7 +74,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 ## Authors
 
-* **Orhan Arifoglu** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Orhan Arifoglu** - *Initial work* 
 
 See also the list of [contributors](https://github.com/lemikistu/Hermit-Crab/graphs/contributors) who participated in this project.
 
