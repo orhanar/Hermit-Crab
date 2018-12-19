@@ -1,16 +1,4 @@
 
-
-Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.
-
-How to use
-
-1) Edit Client.py host variable with IP of Server you gone run Server.py on.
-2) Run Server.py
-3) Run Client.py
-
-
-
-
 # Hermit Crab
 
 Multi-Client Multi-Threaded Reverse Shell in Python
@@ -22,70 +10,73 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need IDE for Python such as [Pycharm](https://www.jetbrains.com/pycharm/)
+You will need IDE for Python such as [PyCharm](https://www.jetbrains.com/pycharm/) and Python 3.6.x installed with cx_Freeze Module
 ```
-You will need IDE for Python such as [Pycharm](https://www.jetbrains.com/pycharm/)
+In Pycharm Go To File->Settings->Project_Interpreter and select your Python directory.If under packages you can't see cx_Freeze Module,click + sign at the right and search for cx_Freeze within available packages and install it.
 ```
 
 ### Installing
 
-1) Install 
+1) Clone the Project
 
 ```
-Give the example
+Go To Project Page and Click Green Clone or Download Button on Github.
 ```
 
-And repeat
+2) Setting Up the Github Desktop
 
 ```
-until finished
+After you downloaded Github Desktop or Git Bash and you logged in with your profile, clone the repository using the link you got on directory you want.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3) Selecting the project type
+
+```
+You can then go to directory you cloned the project and go to Single_Client or Multiple_Clients Section based on program you want to run.
+```
+
+4) Opening Files
+
+```
+Open Client.py and Server.py from directory you picked using PyCharm or any other Python IDE.
+```
+
+5) Running Files
+
+```
+First run the Server.py.Then go to Client.py and edit host variable with the IP Address of your Server.Then run Client.py
+```
+
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Basic tests for the Single_Client setup includes command dir and cd .. 
+For Multiple_Client setup you can run list to list of connected devices.quit for quiting from the devices you are connected to and normal cd and dir commands while you are connected to the specific device. Also you can test select x from Hermit Crab cmd where x is number of device you want to connect to.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+These tests check whether you can connect to the client and whether you can run commands on them.
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+You can deploy Multiple_Client Client.py file by going to directory it is in and running python Setup.py build.Then you can save and run your Server.py on your Server.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Cx_Freeze
+* Python
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Orhan Arifoglu** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/lemikistu/Hermit-Crab/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -93,6 +84,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.In such a cases of misuse, author of the program do not take any responsibility.
