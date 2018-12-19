@@ -82,6 +82,6 @@ See also the list of [contributors](https://github.com/lemikistu/Hermit-Crab/gra
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Disclaimer
 
-* Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.In such a cases of misuse, author of the program do not take any responsibility.
+* This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.In such a cases of misuse, author of the program do not take any responsibility.
