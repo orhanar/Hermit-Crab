@@ -1,0 +1,6 @@
+#!C:\Users\orhan\PycharmProjects\Reverse-Shell\venv\Scripts\python.exe
+
+from cx_Freeze import main
+
+main()
+
