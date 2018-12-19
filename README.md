@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-
+You will need IDE for Python such as [Pycharm](https://www.jetbrains.com/pycharm/)
 ```
 You will need IDE for Python such as [Pycharm](https://www.jetbrains.com/pycharm/)
 ```
