@@ -1,7 +1,7 @@
 
 # Hermit Crab
 
-Multi-Client Multi-Threaded Reverse Shell in Python
+Multi-Client Multi-Threaded Reverse Shell in Python.
 
 
 ## Getting Started
