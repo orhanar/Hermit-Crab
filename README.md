@@ -1,4 +1,4 @@
-![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/orhanarifoglu/Hermit-Crab) ![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/orhanarifoglu/Hermit-Crab)
+![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/orhanarifoglu/Hermit-Crab) ![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/orhanarifoglu/Hermit-Crab) [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 # Hermit Crab
 
 Multi-Client Multi-Threaded Reverse Shell in Python.
